@@ -1,0 +1,20 @@
+{
+  "name": "dla_kachelviewer",
+  "version": "2.0.0",
+  "description": "A Typo3-Extension to view DeepZoomImages using OpenSeadragon",
+  "dependencies": {},
+  "devDependencies": {
+    "openseadragon": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/dla-marbach/dla_kachelviewer.git",
+  "author": "Alexander Harm",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dla-marbach/dla_kachelviewer/issues"
+  },
+  "homepage": "https://github.com/dla-marbach/dla_kachelviewer#readme",
+  "main": "index.js"
+}

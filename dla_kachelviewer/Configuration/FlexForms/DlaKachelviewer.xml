@@ -1,0 +1,118 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sGeneralSettings>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>General Settings</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.storagePath>
+						<TCEforms>
+							<label>Speicherpfad</label>
+							<config>
+								<type>input</type>
+								<size>75</size>
+								<default>/fileadmin/data/repo/dido</default>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.storagePath>
+					<settings.objectID>
+						<TCEforms>
+							<label>Objekt ID</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+								<default>re:^.*\/(.+)_[0-9]{4}.dzi$</default>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.objectID>
+					<settings.metadataShow>
+						<TCEforms>
+							<label>Metadaten anzeigen</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">True</numIndex>
+										<numIndex index="1">True</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">False</numIndex>
+										<numIndex index="1">False</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.metadataShow>
+					<settings.metadataId>
+						<TCEforms>
+							<label>Metadaten ID</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+								<default>re:^.*\/(.+)_[0-9]{4}.dzi$</default>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.metadataId>
+					<settings.physPage>
+						<TCEforms>
+							<label>Startseite</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<default>1</default>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>
+					</settings.physPage>
+					<settings.showSearchField>
+						<TCEforms>
+							<label>Suchmaske</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">False</numIndex>
+										<numIndex index="1">False</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">True</numIndex>
+										<numIndex index="1">True</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.showSearchField>
+					<settings.storagePattern>
+						<TCEforms>
+							<label>Speicherstruktur</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">1: Object/Quality/File</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">2: Quality/Object/File</numIndex>
+										<numIndex index="1">2</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.storagePattern>
+				</el>
+			</ROOT>
+		</sGeneralSettings>
+	</sheets>
+</T3DataStructure>

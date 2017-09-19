@@ -1,0 +1,42 @@
+#dla_kachelviewer_error {
+  color: red; 
+  font-weight: bold; 
+  visibility: hidden;
+}
+#dla_kachelviewer_input {
+  margin-bottom: 20px;
+}
+#dla_kachelviewer_input_text {
+  display: inline; /* nur auf DLA Homepage nötig */
+  width: 9em; /* nur auf DLA Homepage nötig */
+}
+#dla_kachelviewer_input_submit {
+  display: inline; /* nur auf DLA Homepage nötig */
+}
+#dla_kachelviewer_viewport {
+  width: 777px; /* DLA homepage (default 800px) */
+}
+#dla_kachelviewer_toolbar {
+  width: 100%;
+  height: 2.3125rem;	/* DLA input element (default 30px) */
+}
+#dla_kachelviewer_seitenanzeige {
+  display: table; 
+  margin: auto; 
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: white; /* ggfls. anpassen */
+}
+#dla_kachelviewer_seite {
+  display: inline; /* nur auf DLA Homepage nötig */
+  width: 3em; /* nur auf DLA Homepage nötig */
+}
+#dla_kachelviewer_content {
+  width: 100%;
+  height: 600px;
+  background-color: black; /* ggfls. anpassen */
+}
+#dla_kachelviewer_metadaten table tr td {
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
